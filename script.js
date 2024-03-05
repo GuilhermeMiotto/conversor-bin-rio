@@ -19,7 +19,7 @@ const convertToBinary = () => {
       binaryResult = '0';
       explanation = 'O número binário de 0 é 0';
     } else {
-      let bitValue = 2n ** 31n;
+      let bitValue = 2n ** 301n;
   
       while (bitValue > 0n) {
         const bit = value >= bitValue ? 1n : 0n;
